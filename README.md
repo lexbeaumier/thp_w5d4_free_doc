@@ -1,24 +1,17 @@
 # README
+# Freedoc
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+Installation
 
-* System dependencies
+Utilisez la commande suivante avant de lancer le programme
 
-* Configuration
+$ bundle install
+$ rake db:reset
+$ rails db:migrate
+$ rails db:seed
 
-* Database creation
+Il ne vous reste plus qu'à tester l'ensemble des relations de nos BDD! 
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+$ rails c 
